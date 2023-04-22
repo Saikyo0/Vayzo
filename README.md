@@ -27,4 +27,4 @@ Vayazo is a simple web application that allows users to watch movies, shows or a
 
 > ## Use the sync button to synchronize playback to the current timestamp if there are people with wrong time stamps
 
-``` Note: Vayzo is only designed to work with local video files and does not support streaming from online sources.```
+```Note: Vayzo is only designed to work with local video files and does not support streaming from online sources.```
