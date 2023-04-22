@@ -2,6 +2,8 @@
 Vayazo is a simple web application that allows users to watch movies, shows or any video with others. using local files for low latency or slow connections 
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/25ae29d4-26c2-4ec2-9f8e-5a5b13cfabae/deploy-status)](https://app.netlify.com/sites/vayzo/deploys)
+![Website Status](https://img.shields.io/website-up-down-green-red/https/vayzo.netlify.app.svg)
+![made with](https://img.shields.io/badge/made%20with-html%20-red)
 
 <a href=https://vayzo.netlify.app>vayzo.netlify.app</a>
 
