@@ -1,0 +1,62 @@
+<!DOCTYPE html> 
+<html>
+  <head> 
+    <title>Vayzo - Watch Local Videos with Friends on Slow Internet</title> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="MMtt7fVv0_btBrc8n5vzu4aj_cuREohKHFuw59kGp2c" />
+    <link rel="stylesheet" href="style.css">
+  </head> 
+  <body>
+    <h1><b>Vayzo</b></h1>
+    <h4 style="font-family: Tahoma">Want To Watch A Movie With Friends But Fear Low Bandwith? Laggy Internet? Or Even Shitty Quality?</h4>
+    <P>How To Use Vayzo:- </P>
+    <OL style="font-family: monospace;">
+      <LI>Download The Video File *(skip if you already have the file)</LI>
+      <LI>Generate Room And Join It</LI>
+      <LI>Make The Other Person Do The Same With Same Room Key</LI>
+      <LI>Click "Select Video" And Select The Video</LI>
+      <LI>Other Guy Do The Same</LI>
+      <LI>Have Fun</LI>
+    </OL>
+    <P>Tips:- </P>
+    <UL style="font-family: monospace;">
+      <LI>Is One Of You Out Of Sync? Just Click "Sync" And All of You Will Be Synced</LI>
+      <LI>Seek The Video After Pausing Then Click Sync (Not Doing That Can Cause Errors)</LI>
+      <LI>Encountered An Error? Refresh Page, Pause, Seek and ReSync</LI>
+    </UL>
+    <p></p>
+    <form id="room-form"> 
+      <label for="room-id">Enter Room ID:</label> 
+      <input id="room-id" type="text"> 
+      <button type="submit">Join Room</button> 
+    </form>
+    <p></p>
+
+    <div id="video-container">
+      <p></p>
+      <video id="my-video" src="" controls></video>
+      <button id="sync-button">Sync</button>
+      <button id="select-video">Select Video</button>
+    </div>
+
+    <div id="chat-container">
+      <h2>Chat</h2>
+      <div id="chat-messages"></div>
+      <form id="chat-form"> 
+        <input type="text" id="chat-input" placeholder="Type your message"> 
+        <button type="submit" id="chat-submit">Send</button> 
+      </form>
+    </div>
+    <p></p>
+    <footer>
+      <div> 
+        <a href="https://github.com/saikyo0">
+          <img class="footer-button" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png" alt="GitHub logo">
+          </a>
+      </div>
+    </footer>
+    <p></p>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.4.1/socket.io.min.js"></script>
+    <script src="script/main.js"></script> 
+  </body>
+</html>
