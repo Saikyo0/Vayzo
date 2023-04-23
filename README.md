@@ -1,11 +1,15 @@
 # Vayzo
 
+![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101) 	![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
+
 <img src="https://user-images.githubusercontent.com/83172112/233808250-6aa83585-4c8c-439b-899c-1f31965dab73.jpeg" style="width:20%"/>
 
 Vayazo is a simple web application that allows users to watch movies, shows or any video with others. using local files for low latency or slow connections 
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/25ae29d4-26c2-4ec2-9f8e-5a5b13cfabae/deploy-status)](https://app.netlify.com/sites/vayzo/deploys)
 ![Website Status](https://img.shields.io/website-up-down-green-red/https/vayzo.netlify.app.svg)
+[![Generic badge](https://img.shields.io/badge/Status-pre_beta-blue.svg)](https://shields.io/)
 
 <a href=https://vayzo.netlify.app/>Vayzo.netlify.app</a>
 
