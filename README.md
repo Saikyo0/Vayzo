@@ -9,8 +9,9 @@ Vayazo is a simple web application that allows users to watch movies, shows or a
 
 <a href=https://vayzo.netlify.app/>Vayzo.netlify.app</a>
 
-> Allowing you to watch local videos with friends on slow internet, The website is designed to be easy to use and focuses on providing the essential features needed to enjoy any video. The website is built using HTML, CSS, and JavaScript, and uses the Socket.io library to facilitate communication between users.
+> Allowing you to watch local videos with friends on slow internet, The website is designed to be easy to use and focuses on providing the essential features needed to enjoy any video. The website is built using HTML, CSS, and JavaScript, and uses the Socket.io library to facilitate communication between users.<br>
 
+![vayzo netlify app](https://user-images.githubusercontent.com/83172112/233852393-f003450e-6a88-420e-8aec-776e7d8d80ac.jpg)
 ----------------------------------------------------------
 #### Features:
 
@@ -33,3 +34,4 @@ Vayazo is a simple web application that allows users to watch movies, shows or a
 > ## Use the sync button to synchronize playback to the current timestamp if there are people with wrong time stamps
 
 ```Note: Vayzo is only designed to work with local video files and does not support streaming from online sources.```
+```Note: ngrok server```
