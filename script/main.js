@@ -1,4 +1,4 @@
-const socket = io('https://1485-196-188-160-89.ngrok-free.app', { cors: { origin: "*" } });
+const socket = io('server', { cors: { origin: "*" } });
 let roomID = '';
 
 const form = document.getElementById('room-form');
